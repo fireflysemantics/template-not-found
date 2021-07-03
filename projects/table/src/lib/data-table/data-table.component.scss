@@ -1,0 +1,19 @@
+/* https://stackoverflow.com/questions/50824617/angular-material-table-sizing-scroll */
+
+.table-container {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-table {
+  overflow-x: scroll;
+}
+
+.hide {
+  display:none;
+}
